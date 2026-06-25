@@ -10,10 +10,16 @@ public:
               
             for(int j =i ;j<n ;j++){
             
-              count+=(nums[j]==target ?1 :-1);
-                 if(count>0){
-                    ans++;
-                 }
+              if(nums[j]==target){
+                count++;
+              }
+              else{
+                count--;
+              }
+
+              if(count>0){
+                ans++;
+              }
    
   }
 
