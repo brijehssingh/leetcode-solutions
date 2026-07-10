@@ -9,7 +9,7 @@ vector<vector<int>> ans;
             return;
         }
 
-        if(i >= m || sum > n || temp.size() > k){
+        if(i >= m || sum > n ){
             return;
         }
 
