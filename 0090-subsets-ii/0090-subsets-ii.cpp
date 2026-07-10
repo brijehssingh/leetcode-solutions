@@ -24,7 +24,7 @@ void solve(vector<int> curr, vector<int>& nums, int i,int n) {
    int n = nums.size();
     vector<int> curr;
     solve(curr, nums, 0,n);
-    sort(result.begin(),result.end());
+    
     return result;
 
     }
